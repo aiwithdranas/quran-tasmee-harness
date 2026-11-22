@@ -1,0 +1,14 @@
+# PoC Harness .gitignore — Stage 1 only. The key rule is the point:
+# a Quran Lab key must NEVER be committed.
+local.properties
+*.jks
+*.keystore
+build/
+.gradle/
+.idea/
+*.iml
+# No audio recordings, no reference JSON with keys, no session logs
+# are committed either; they live on the phone / setup computer only.
+*.wav
+reference_67_32.json
+session-logs/
